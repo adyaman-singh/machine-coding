@@ -5,10 +5,12 @@ import "./App.css";
 import ProfileIcon from "./components/ProfileIcon";
 import dp from "./assets/react.svg";
 import Counters from "./components/Counters";
+import ColorPickerBox from "./components/ColorPickerBox";
 
 function App() {
   return (
-    <Counters />
+    // <Counters />
+    <ColorPickerBox />
     // <div className="flex items-center justify-center h-screen bg-gray-100">
     //   <ProfileIcon name="John Doe" bio="Web Developer" profilePic={dp} />
     // </div>
